@@ -1,0 +1,30 @@
+
+  .card-header{
+    text-align: center;
+    color: darkolivegreen;
+    border-bottom: 1px solid black;
+  }
+
+  .characterCard{
+      background: gainsboro;
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      height: 400px;
+      margin: 20px;
+      padding: 10px;
+      border-radius: 20px;
+  }
+
+  .list{
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      color: darkolivegreen;
+      font-family: Verdana, sans-serif;
+  }
+
+  .characterList{
+      width: 100%;
+  }
