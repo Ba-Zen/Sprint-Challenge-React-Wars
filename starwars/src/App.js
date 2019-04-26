@@ -33,12 +33,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <div >
-        <h1 className="Header">React Wars</h1>
-      </div>
-      <div className = "characters">
-      <CharacterList CharacterList={this.state.starwarsChars} />
-      </div>
+        <div >
+          <h1 className="Header">React Wars</h1>
+        </div>
+        <div className = "characters">
+          <CharacterList CharacterList={this.state.starwarsChars} />
+        </div>
       </div>
     );
   }
